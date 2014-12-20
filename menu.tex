@@ -39,8 +39,13 @@
   \sffamily#1 & #2}
 
 % to format each subentry
-\newcommand*\Expl[1]{%
+\newcommand*\Expl[1]{
   \hspace*{1em}\footnotesize #1}
+
+\newcommand*\HowToMake[1]{
+%TODO: comment out for printed menu
+  \hspace*{1em}\footnotesize #1
+}
 
 \pagestyle{empty}
 
@@ -48,8 +53,10 @@
 
 
 \begin{Group}{New Drinks!}
-\Entry{The End of the Road}{10} \\
+\Entry{The End of the Road}{5} \\
 \Expl{The strong flavors in this drink work together but than the ingredident list would suggest. Laphroaig, Compair, Green Chartreuse} \\
+\Entry{The Last Word}{5} \\
+\Expl{I don't know if this is good but we are trying it. Gin, Lime Juice, Green Chartreuse, Maraschino Liqueur. Bonus rouad: sub Laphroaig for gin.} \\
 \end{Group}
 
 \vfill
@@ -82,6 +89,8 @@
 \Entry{Cuba Libre}{5} \\
 \Entry{Old Fashioned}{5} \\
 \Entry{Manhattan}{5} \\
+\Entry{Aviation}{5} \\
+\HowToMake{4.5 cl Gin, 1.5 cl Lemon Juice, 1.5 cl Maraschino Liqueur} \\
 \end{Group}
 
 %\newpage
