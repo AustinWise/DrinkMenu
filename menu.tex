@@ -15,10 +15,10 @@
 \SetBgOpacity{1}
 \SetBgContents{%
 \begin{tikzpicture}
-\node at (0.5\paperwidth,0) {\wb{80}{34}{E}\rule[60pt]{.2\textwidth}{0.4pt}%
+\node at (0.5\paperwidth,0) {\wb{80}{34}{E}\rule[60pt]{.1\textwidth}{0.4pt}%
   \raisebox{55pt}{%
-  \makebox[.6\textwidth]{\ \fontsize{20}{29}\selectfont\scshape Drink Menu }}%
-  \rule[60pt]{.2\textwidth}{0.4pt}\wb{80}{34}{F}};
+  \makebox[.8\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Snow Much Fun 2014}}%
+  \rule[60pt]{.1\textwidth}{0.4pt}\wb{80}{34}{F}};
 \node at (2,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
 \node at (19.5,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
 \node at (0.5\paperwidth,-\textheight) {\wb{80}{34}{G}\rule[-10pt]{\textwidth}{0.4pt}\wb{80}{34}{H}} ;
@@ -36,7 +36,7 @@
 
 % to format each entry
 \newcommand*\Entry[1]{%
-  \sffamily#1 & 5 \\
+  \sffamily#1 \\
 }
 
 % to format each subentry
@@ -45,7 +45,7 @@
 }
 
 \newcommand*\HowTo[1]{
-%can comment this out for a prettyier menu
+%can comment this out for a prettier menu
   HOWTO: \hspace*{1em}\footnotesize #1 \\
 }
 
@@ -55,16 +55,18 @@
 
 
 
-\begin{Group}{Snow Much Fun 2014}
+\begin{Group}{Snow Drinks}
 
 \Entry{Green Circle}
 \Expl{Also know as the japanese slipper.}
+\HowTo{Equal parts Midor, Cointreau, Lemon juice}
 
 \Entry{Blue Square}
 \Expl{A White Lady made with Blue Curaçao.}
+\HowTo{4 gin, 3 triple sec, 2 lemon}
 
 \Entry{Black Diamond}
-\Expl{TBD}
+\Expl{A glass of fernet.}
 
 \end{Group}
 
@@ -119,8 +121,8 @@
 
 \vfill
 
-\begin{Group}{Bog Standard Drinks}
-\emph{Standard drinks that can be made with the ingredients on hand.}
+\begin{Group}{Standard Drinks}
+\emph{Well known drinks that can be made with the ingredients on hand.}
 
 \Entry{The Mission Bell}
 \Expl{A passion fruit Daiquiri.}
