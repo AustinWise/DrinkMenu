@@ -8,8 +8,13 @@
 \newcommand*\wb[3]{%
   {\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}#3}}
 
+%color
+%https://color.adobe.com/Cherry-Cheesecake-color-theme-2354/
+\definecolor{MyColor}{rgb}{0.7254901960784314,0.0705882352941176,0.1058823529411765}
+\definecolor{DarkColor}{rgb}{0.2980392156862745,0.1058823529411765,0.1058823529411765}
+
 % The page frame
-\SetBgColor{Goldenrod3}
+\SetBgColor{MyColor}
 \SetBgAngle{0}
 \SetBgScale{1}
 \SetBgOpacity{1}
@@ -26,7 +31,7 @@
 }
 
 % colorize text
-\newcommand*\ColText[1]{\textcolor{Goldenrod3}{#1}}
+\newcommand*\ColText[1]{\textcolor{DarkColor}{#1}}
 
 % a tabular* for each food group
 \newenvironment{Group}[1]
