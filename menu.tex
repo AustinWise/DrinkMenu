@@ -20,13 +20,22 @@
 \SetBgOpacity{1}
 \SetBgContents{%
 \begin{tikzpicture}
-\node at (0.5\paperwidth,0) {\wb{80}{34}{E}\rule[60pt]{.1\textwidth}{0.4pt}%
+\node at (0.5\paperwidth,0) {\wb{80}{34}{E}
+  \rule[60pt]{.1\textwidth}{0.4pt}
   \raisebox{55pt}{%
-  \makebox[.8\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Snow Much Fun 2015}}%
-  \rule[60pt]{.1\textwidth}{0.4pt}\wb{80}{34}{F}};
+  \makebox[.8\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Labor Day Drinks}}
+  \rule[60pt]{.1\textwidth}{0.4pt}
+  \wb{80}{34}{F}};
 \node at (2,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
 \node at (19.5,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
-\node at (0.5\paperwidth,-\textheight) {\wb{80}{34}{G}\rule[-10pt]{\textwidth}{0.4pt}\wb{80}{34}{H}} ;
+\node at (0.5\paperwidth,-\textheight) {\wb{80}{34}{G}
+  \rule[-10pt]{.4\textwidth}{0.4pt}
+  \raisebox{-12pt}{
+    \makebox[.2\textwidth]{2016}}
+  \rule[-10pt]{.4\textwidth}{0.4pt}
+\wb{80}{34}{H}
+
+} ;
 \end{tikzpicture}%
 }
 
@@ -59,17 +68,16 @@
 \begin{document}
 
 
-\input{slopes}
-\vfill
+%\input{slopes}
+%\vfill
 
-\input{winter_drinks}
-\vfill
+%\input{winter_drinks}
+%\vfill
 
 \input{favorites}
-\vfill
 
-\input{different}
-\vfill
+%\input{different}
+%\vfill
 
 \input{standard}
 
