@@ -1,9 +1,12 @@
 \documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
+\usepackage{xeCJK}
 \usepackage[T1]{fontenc}
 \usepackage[textwidth=12cm,centering]{geometry}
 \usepackage[x11names]{xcolor}
 \usepackage{background}
+\setCJKmainfont{ipaexm.ttf}
+\setCJKsansfont{ipaexg.ttf}
+\setCJKmonofont{ipaexg.ttf}
 
 \newcommand*\wb[3]{%
   {\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}#3}}
@@ -23,7 +26,7 @@
 \node at (0.5\paperwidth,0) {\wb{80}{34}{E}
   \rule[60pt]{.1\textwidth}{0.4pt}
   \raisebox{55pt}{%
-  \makebox[.8\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Justin's Housewarming}}
+  \makebox[.8\textwidth]{\ \fontsize{20}{29}\selectfont\scshape Justin's Housewarming}}
   \rule[60pt]{.1\textwidth}{0.4pt}
   \wb{80}{34}{F}};
 \node at (2,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
