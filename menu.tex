@@ -10,6 +10,11 @@
 
 %color
 %https://color.adobe.com/Cherry-Cheesecake-color-theme-2354/
+% #B9121B
+% #4C1B1B
+% #F6E497
+% #FCFAE1
+% #BD8D46
 \definecolor{MyColor}{rgb}{0.7254901960784314,0.0705882352941176,0.1058823529411765}
 \definecolor{DarkColor}{rgb}{0.2980392156862745,0.1058823529411765,0.1058823529411765}
 
@@ -23,15 +28,15 @@
 \node at (0.5\paperwidth,0) {\wb{80}{34}{E}
   \rule[60pt]{.1\textwidth}{0.4pt}
   \raisebox{55pt}{%
-  \makebox[.8\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Winter Thing 2016}}
+  \makebox[.8\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Austin's Drink Menu}}
   \rule[60pt]{.1\textwidth}{0.4pt}
   \wb{80}{34}{F}};
-\node at (2,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
-\node at (19.5,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
+\node at (2,-0.5\textheight) {\rule{0.4pt}{.8\textheight}}; % right side line
+\node at (19.5,-0.5\textheight) {\rule{0.4pt}{.8\textheight}}; % left side line
 \node at (0.5\paperwidth,-\textheight) {\wb{80}{34}{G}
-  \rule[-10pt]{.4\textwidth}{0.4pt}
+  \rule[-10pt]{.3\textwidth}{0.4pt} % first number: vertical offset, second number: h-offset of corner glyphs, last number: thickness of line
   \raisebox{-12pt}{
-    \makebox[.2\textwidth]{2016}}
+    \makebox[.4\textwidth]{austin@awise.us}} % the number before \textwidth controls the width of the lines
   \rule[-10pt]{.4\textwidth}{0.4pt}
 \wb{80}{34}{H}
 
@@ -77,8 +82,8 @@
 %\input{slopes}
 %\vfill
 
-\input{winter_drinks}
-\vfill
+%\input{winter_drinks}
+%\vfill
 
 \input{favorites}
 \vfill
