@@ -8,6 +8,8 @@
 *.ps
 *.synctex.gz
 *.gz*
+*.fls
+*.fdb*
 
 #html
 *.lg
